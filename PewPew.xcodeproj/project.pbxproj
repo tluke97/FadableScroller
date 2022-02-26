@@ -16,6 +16,9 @@
 		67B7ECA827B6196D005D9C6C /* PewPewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B7ECA727B6196D005D9C6C /* PewPewTests.swift */; };
 		67B7ECB227B6196D005D9C6C /* PewPewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B7ECB127B6196D005D9C6C /* PewPewUITests.swift */; };
 		67B7ECB427B6196D005D9C6C /* PewPewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B7ECB327B6196D005D9C6C /* PewPewUITestsLaunchTests.swift */; };
+		67B7ECC427B61A3A005D9C6C /* PewPewLaserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B7ECC327B61A3A005D9C6C /* PewPewLaserView.swift */; };
+		67B7ECC627B72A1D005D9C6C /* PewPewSubview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B7ECC527B72A1D005D9C6C /* PewPewSubview.swift */; };
+		67DCB5BE27C8A1CE009104AA /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DCB5BD27C8A1CE009104AA /* Timer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		67B7ECAD27B6196D005D9C6C /* PewPewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PewPewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67B7ECB127B6196D005D9C6C /* PewPewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PewPewUITests.swift; sourceTree = "<group>"; };
 		67B7ECB327B6196D005D9C6C /* PewPewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PewPewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		67B7ECC327B61A3A005D9C6C /* PewPewLaserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PewPewLaserView.swift; sourceTree = "<group>"; };
+		67B7ECC527B72A1D005D9C6C /* PewPewSubview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PewPewSubview.swift; sourceTree = "<group>"; };
+		67DCB5BD27C8A1CE009104AA /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,7 @@
 		67B7EC8F27B6196B005D9C6C /* PewPew */ = {
 			isa = PBXGroup;
 			children = (
+				67B7ECC027B61995005D9C6C /* Objects */,
 				67B7EC9027B6196B005D9C6C /* AppDelegate.swift */,
 				67B7EC9227B6196B005D9C6C /* SceneDelegate.swift */,
 				67B7EC9427B6196B005D9C6C /* ViewController.swift */,
@@ -125,6 +132,16 @@
 				67B7ECB327B6196D005D9C6C /* PewPewUITestsLaunchTests.swift */,
 			);
 			path = PewPewUITests;
+			sourceTree = "<group>";
+		};
+		67B7ECC027B61995005D9C6C /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				67B7ECC327B61A3A005D9C6C /* PewPewLaserView.swift */,
+				67B7ECC527B72A1D005D9C6C /* PewPewSubview.swift */,
+				67DCB5BD27C8A1CE009104AA /* Timer.swift */,
+			);
+			path = Objects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +277,9 @@
 			files = (
 				67B7EC9527B6196B005D9C6C /* ViewController.swift in Sources */,
 				67B7EC9127B6196B005D9C6C /* AppDelegate.swift in Sources */,
+				67B7ECC627B72A1D005D9C6C /* PewPewSubview.swift in Sources */,
+				67DCB5BE27C8A1CE009104AA /* Timer.swift in Sources */,
+				67B7ECC427B61A3A005D9C6C /* PewPewLaserView.swift in Sources */,
 				67B7EC9327B6196B005D9C6C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
